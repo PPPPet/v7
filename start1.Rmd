@@ -1,0 +1,226 @@
+---
+title: "My View"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: column
+    vertical_layout: scroll
+   
+   
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+
+
+library(flexdashboard)
+library(flexdashboard)
+library(tidyverse)
+library(tidyquant)
+library(plotly)
+library(odbc)
+library(RSQLite)
+library(DBI)
+library(RSQLite)
+library(sqldf)
+library(sqldf)
+library(r2d3)
+library(shiny)
+library(htmltools)
+library(DT)
+library(rmarkdown)
+library(viridis)
+library(bannerCommenter)
+
+
+
+```
+
+
+# Cyber
+
+```{r}
+
+```
+
+Column {data-height=1250, data-width=50}
+------------------------------------------------------------------------
+### Content
+
+[Cyber attact types](#Cyber attact types)
+
+```{r}
+
+```
+
+Column {data-height=1250, data-width=300}
+------------------------------------------------------------------------
+### Cyber attact types
+```{r}
+h1("Cyber attact types")
+br()
+HTML("<p>cyber attact types to html</p>")
+```
+
+###
+```{r}
+
+```
+
+
+
+# bash/linux commands
+```{r}
+
+```
+Column {data-height=1250, data-width=50}
+---------------------------------------------------------------------------
+### Content
+[Basic Command](#Basic Command)
+```{r}
+
+```
+Column {data-height=1250. data-width=300}
+-------------------------------------------------------------------------------
+### Basic Command
+```{r}
+
+```
+
+
+
+
+
+# Python
+```{r}
+
+```
+Column {data-height=1250, data-width=50}
+------------------------------------------------------------------------
+
+### Content
+
+[EDA(Exploratory Data Analysis) and Data processing](#EDA(Exploratory Data Analysis) and Data processing)
+
+[Graphic](#Graphic)
+
+[Feature engineer](#Feature engineer)
+
+[Models](#Models)
+
+[Under and Over fit](#Under and Over fit)
+
+[Hypotesis test](#Hypotesis test)
+
+[Unit test](#Unit test)
+```{r}
+
+```
+
+Column {data-height=1250, data-width=300}
+-------------------------------------------------------------------------
+### EDA(Exploratory Data Analysis) and Data processing
+```{r}
+
+```
+
+### Graphic
+```{r}
+
+```
+
+### Feature engineer
+```{r}
+
+```
+
+### Models
+```{r}
+
+```
+
+### Under and Over fit
+```{r}
+
+```
+### Hypotesys test
+```{r}
+
+```
+### Unit test
+```{r}
+
+```
+
+
+
+# R
+```{r}
+
+```
+
+Column {data-height=1250, data-width=50}
+-----------------------------------------------------------------------
+### Content
+[Viridis](#Viridis)
+
+
+[Code Chunks](#Code Chunks)
+
+[Code Chunk2](#Code Chunk2)
+
+```{r}
+
+```
+
+
+
+Column {data-height=1250, data-width=300}
+-----------------------------------------------------------------------
+### Viridis
+This two color palette presented by this code which name is [viridis]\n
+(http://github.com/sjmgarnier/viridis) packages. Each plot looks like\n
+map of Maunga Whau volcano in Auckland, New Zealand.
+
+```{r}
+image(volcano, col = viridis(100))
+
+image(volcano, col = viridis(100, option = "A"))
+
+```
+
+
+### Code Chunks
+map of Maunga Whau volcano in Auckland, New Zealand.
+
+```{r}
+image(volcano, col = viridis(100))
+
+image(volcano, col = viridis(100, option = "A"))
+br()
+```
+
+
+### Code Chunk2
+map of Maunga Whau volcano in Auckland, New Zealand.
+
+```{r}
+image(volcano, col = viridis(100))
+
+image(volcano, col = viridis(100, option = "A"))
+br()
+
+```
+img(Line2.png, Rd=False, alt="image")
+
+
+
+
+
+
+
+
+
+
+
+
+
